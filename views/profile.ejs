@@ -22,6 +22,32 @@
                 <label for="caption" class="form-label">Caption</label>
                 <textarea class="form-control" id="caption" name="caption"></textarea>
               </div>
+
+              <!-- DROP DOWN MENU  -->
+<!-- ............................................................................................................ -->
+              <!-- <form> -->
+                <select id="category" name="category" class="form-control">
+                  <option value="default" selected="selected">Category</option>
+                  <option value="electronics">electronics</option>
+                  <option value="living" >living & home</option>
+                  <option value="clothing">clothing & acessories</option>
+                  <option value="sports">sports</option>
+                  <option value="toys">toys</option>
+                </select>
+              <!-- </form> -->
+            <script>
+                    var e = document.getElementById("category");
+        
+                    function onChange() {
+                    var value = e.value;
+                    var text = e.options[e.selectedIndex].text;
+                    // console.log(value, text);
+                    console.log(text)
+                    }
+                    e.onchange = onChange;
+                    onChange();
+            </script>
+<!-- ............................................................................................................ -->
               <div class="mb-3">
                 <label for="imgUpload" class="form-label">Image</label>
                 <input type="file" class="form-control" id="imageUpload" name="file">

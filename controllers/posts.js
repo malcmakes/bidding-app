@@ -40,6 +40,7 @@ module.exports = {
         cloudinaryId: result.public_id,
         caption: req.body.caption,
         price: req.body.price,
+        category: req.body.category,
         user: req.user.id,
       });
       console.log("Post has been added!");
