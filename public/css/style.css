@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+html,
+body,
+.blueSaph {
+/* font-family:'Cabin', sans-serif;  */
+font-family: 'Quicksand', sans-ser;
+ color: white;
+ background-color: rgb(0, 95, 115);
+}
+
+.viridianGreen {
+    background-color: rgb(10, 147, 150);
+}
+
+.middleBlueGreen {
+    color: rgb(148, 210, 189);
+}
+
+.alloyOrange {
+    background-color: rgb(202, 103, 2);
+}
+
+.rust {
+    background-color: rgb(187, 62, 3);
+    width: 5em;
+}
